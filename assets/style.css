@@ -1,0 +1,55 @@
+#SLIDE_BG {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 36s linear infinite 8s;
+  animation-timing-function: ease-in-out;
+  background-image: url("./images/laughing-bearded-man-holding-hair-and-laughing-3DLGZ7V.jpg");
+
+}
+
+@keyframes slideBg {
+  0% {
+    background-image: url("./images/laughing-bearded-man-holding-hair-and-laughing-3DLGZ7V.jpg"), url("./images/laughing-afro-man-in-sunlight-QLEFV3C.jpg");
+  }
+
+  25% {
+    background-image: url("./images/laughing-afro-man-in-sunlight-QLEFV3C.jpg"), url("./images/laughing-friends-sitting-on-a-boat-having-drinks-RLZTLFW.jpg");
+  }
+
+  50% {
+    background-image: url("./images/laughing-friends-sitting-on-a-boat-having-drinks-RLZTLFW.jpg"), url("./images/happy-boy-in-autumn-forest-RB5HWXS.jpg");
+  }
+
+  75% {
+    background-image: url("./images/happy-boy-in-autumn-forest-RB5HWXS.jpg"), url("./images/laughing-businesswoman-wearing-telephone-headset-QZRU9UA.jpg");
+  }
+
+  100% {
+    background-image: url("./images/laughing-businesswoman-wearing-telephone-headset-QZRU9UA.jpg");
+  }
+
+}
+
+.card {
+  font-family: 'Calistoga', cursive;
+  font-size: 20px;
+  color: orangered;
+  text-align: center;
+
+}
+
+#button-addon3 {
+  margin-left: 40px;
+}
+
+#gifs-appear-here{
+  align-content: center;
+}
+
+.currenLocation{
+  font-size: 5px;
+}
